@@ -1,0 +1,53 @@
+
+#showFriendsWidgetWrapper{
+    background-color: white;
+    box-shadow: 2px 2px 10px 0.2px grey;
+    padding: 10px 10px;
+    width: 70%;
+    border : 1px solid transparent;
+    border-radius: 8px;
+}
+
+#showFriendsWidge-innerRow-1 > h5{
+    padding: 0px;
+    margin : 0px;
+    margin-bottom: 5%;
+}
+
+.showFriendsWidge-innerRow-2{
+    display: flex;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+#showFriendsWidge-innerRow-2-innerColumn-1{
+    /* background-color: red; */
+    width: 18%;
+}
+
+#showFriendsWidge-innerRow-2-innerColumn-1-profileImage{
+    width : 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#showFriendsWidge-innerRow-2-innerColumn-2{
+    /* background-color: green; */
+    width: 72%;
+}
+
+#showFriendsWidge-innerRow-2-innerColumn-2 > h4, #showFriendsWidge-innerRow-2-innerColumn-2 > h6{
+    margin: 0px;
+    padding: 0px;
+}
+
+#showFriendsWidge-innerRow-2-innerColumn-2 > h4{
+    margin-top: 2%;
+}
+
+#showFriendsWidge-innerRow-2-innerColumn-3{
+    /* background-color: yellow; */
+    width: 10%;
+    padding-top: 3%;
+}

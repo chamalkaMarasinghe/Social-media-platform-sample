@@ -1,0 +1,46 @@
+
+#loginWidget{
+    background-color: yellowgreen;
+    width: 40%;
+    margin: auto;
+    margin-top: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-items: center;
+    box-shadow: 2px 2px 5px 0.5px grey;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+h4, a{
+    margin-left: 7%;
+}
+
+#submitLogin{
+    padding: 8px 16px;
+    width: 30%;
+    margin: auto;
+    background-color: blueviolet;
+}
+
+#submitLogin:hover{
+    background-color: darkgoldenrod;
+}
+
+@media only screen and (max-width: 650px) {
+    #loginWidget{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    #loginWidget{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #loginWidget{
+        width: 80%;
+    }
+}

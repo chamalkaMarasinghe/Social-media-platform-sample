@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+html, body, #root, .app{
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+}
+
+body{
+  background-color: #ebedec;
+}
+
+/* scroll bar styling .. */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ebedec; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

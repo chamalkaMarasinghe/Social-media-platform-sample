@@ -1,0 +1,239 @@
+
+#navbarWrapper {
+    background-color: #14c996;
+    box-shadow: 2px 2px 10px 0.2px grey;
+    display: flex;
+    padding: 0px;
+}
+
+#navbarWrapper > div{
+    padding: 0px;
+}
+
+#navbarWrapper > div > h1,h3,h4{
+    margin: 0px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #03042b;
+}
+
+#sociopediaDiv{
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+#dummySocioPedia{
+    color: #03042b;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#searchbarDiv{
+    margin-right: 60%;
+    padding: 0px;
+}
+
+#searchbarDiv > input{
+    margin-top: 8%;
+    margin-bottom: 5%;
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+#searchbarDiv > input:focus{
+    outline: none;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#iconsDiv{
+    display: flex;
+    margin-right: 2%;
+}
+
+#iconsDiv > div > svg{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#usernameDiv{
+    margin-right: 3%;
+}
+
+#usernameDiv > h3{
+    margin-top: 17px;
+}
+
+#logoutButton{
+    margin-top: 55%;
+    width: 150%;
+    background-color: #03042b;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+#logoutButton:hover{
+    background-color: #0ba4b0;
+}
+
+#logoutIcon{
+    margin-top: 3px;
+}
+
+@media only screen and (max-width: 2364px) {
+    #searchbarDiv{
+        margin-right: 55%;
+    }
+}
+
+@media only screen and (max-width: 1880px) {
+    #searchbarDiv{
+        margin-right: 45%;
+    }
+}
+
+@media only screen and (max-width: 1390px) {
+    #searchbarDiv{
+        margin-right: 35%;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    #searchbarDiv{
+        margin-right: 25%;
+    }
+}
+
+@media only screen and (max-width: 945px) {
+    #searchbarDiv{
+        margin-right: 12%;
+    }
+}
+
+/* .................................. */
+
+.dropbtn{
+    display: none;
+}
+
+.dropbtn {
+background-color: #03042b;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+background-color: #2980B9;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+overflow: auto;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+#dropdownUsername{
+    margin-left: 9%;
+}
+
+@media only screen and (max-width: 769px) {
+    .dropbtn{
+        display: block;
+
+    }
+
+    .dropdown{
+        margin-left: 20%;
+    }
+
+    #myDropdown{
+        margin-left: -200%;
+    }
+
+    #iconsDiv, #usernameDiv, #logoutButtonDiv{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 695px) {
+    .dropdown{
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .dropdown{
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 579px) {
+    .dropdown{
+        margin-left: 3%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #searchbarDiv{
+        margin-left: 10%;
+        margin-right: 30%;
+    }
+
+    #sociopediaDiv{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    #searchbarDiv{
+        margin-left: 10%;
+        margin-right: 20%;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    #searchbarDiv{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #searchbarDiv{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #myDropdown{
+        margin-left: -300%;
+    }
+}
+
+/* #postLiveSearch{
+    background-color: red;
+} */

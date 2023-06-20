@@ -1,0 +1,16 @@
+
+
+#erf{
+    background-color: chocolate;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+#chatbox{
+    background-color: khaki;
+}
+
+.inboxMsg{
+    margin-left: 5%;
+}

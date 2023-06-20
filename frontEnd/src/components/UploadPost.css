@@ -1,0 +1,39 @@
+#uploadPostWraper{
+    background-color: white;
+    box-shadow: 2px 2px 10px 0.2px grey;
+    padding: 10px 10px;
+    width: 90%;
+    border : 1px solid transparent;
+    border-radius: 8px;
+}
+
+#uploadPost-row-1{
+    display: flex;
+    padding-bottom: 2%;
+    border-bottom: 1px solid black;
+}
+
+#uploadPost-row-1-innerColumn-1{
+    /* background-color: red; */
+    width: 13%;
+}
+
+#uploadPost-row-1-innerColumn-1-profileImagae{
+    width : 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#uploadPost-row-1-innerColumn-2{
+    /* background-color: green; */
+    width: 87%;
+}
+
+#uploadPost-row-1-innerColumn-2-inputField{
+    padding: 3.5% 6%;
+    width: 87%;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background-color: #dfe0dc;
+}

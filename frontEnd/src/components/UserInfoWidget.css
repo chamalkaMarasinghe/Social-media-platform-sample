@@ -1,0 +1,140 @@
+
+#UserInfoWidgetWrapper{
+    background-color: white;
+    box-shadow: 2px 2px 10px 0.2px grey;
+    padding: 10px 10px;
+    width: 70%;
+    border : 1px solid transparent;
+    border-radius: 8px;
+}
+
+#UserInfoWidget-row1{
+    display: flex;
+    /* background-color: green; */
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-bottom: 1px solid black;
+}
+
+#UserInfoWidget-row1-innerColumn-1{
+    /* background-color: red; */
+    width: 20%;
+    /* overflow: hidden; */
+}
+
+#UserInfoWidget-row1-innerColumn-1-profileIMge{
+    width : 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#UserInfoWidget-row1-innerColumn-2-username{
+    margin-bottom: 0px;
+    margin-top: 3%;
+}
+
+#UserInfoWidget-row1-innerColumn-2{
+    /* background-color: yellow; */
+    width: 80%;
+}
+
+#UserInfoWidget-row1-innerColumn-2-nmbrOfFriends{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 7%;
+}
+
+#UserInfoWidget-row1-innerColumn-3{
+    /* background-color: lightsteelblue; */
+    width: 20%;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+
+#UserInfoWidget-row2{
+    display: flex;
+    /* background-color: purple; */
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 2%;
+    border-bottom: 1px solid black;
+}
+
+#UserInfoWidget-row2-innerColumn-1{
+    /* background-color: aqua; */
+    width: 12%;
+}
+
+#UserInfoWidget-row2-innerColumn-2{
+    /* background-color: brown; */
+    width: 80%;
+}
+
+#UserInfoWidget-row2-innerColumn-2-location{
+    margin-top: 2%;
+    margin-bottom: 0px;
+}
+
+#UserInfoWidget-row2-innerColumn-2-occupation{
+    margin-top: 7%;
+    margin-bottom: 0px;
+}
+
+#UserInfoWidget-row3{
+    /* background-color: orange; */
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid black;
+}
+
+#UserInfoWidget-row3-innerRow-1-title, #UserInfoWidget-row3-innerRow-1-value, #UserInfoWidget-row3-innerRow-2-title, #UserInfoWidget-row3-innerRow-2-value{
+    display: inline;
+}
+
+#UserInfoWidget-row3-innerRow-1-title, #UserInfoWidget-row3-innerRow-2-title{
+    margin-right: 45%;
+}
+
+#UserInfoWidget-row4{
+    /* background-color: blue; */
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 3%;
+}
+
+#UserInfoWidget-row4-SocialMediaName > h5{
+    margin-top: 0px;
+    margin-bottom: 2%;
+
+}
+
+#UserInfoWidget-row4-innerRow-1, #UserInfoWidget-row4-innerRow-2{
+    display: flex;
+}
+
+#UserInfoWidget-row4-innerRow-1-Column1, #UserInfoWidget-row4-innerRow-2-Column1{
+    /* background-color: green; */
+    width: 20%;
+}
+#UserInfoWidget-row4-innerRow-1-Column2, #UserInfoWidget-row4-innerRow-2-Column2{
+    /* background-color: yellow; */
+    width: 80%;
+}
+#UserInfoWidget-row4-innerRow-1-Column3, #UserInfoWidget-row4-innerRow-2-Column3{
+    /* background-color: red; */
+    width: 20%;
+    padding-left: 10%;
+}
+
+#UserInfoWidget-row4-innerRow-Column2-socialMediaName, #UserInfoWidget-row4-innerRow-Column2-socialMediaDesc{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.testingP{
+    margin: 0px;
+    padding: 0px;
+}

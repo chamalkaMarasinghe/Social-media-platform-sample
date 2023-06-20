@@ -1,0 +1,44 @@
+
+#homepageWrapper{
+    display: flex;
+    width: 100%;
+}
+
+#homepageWrapper-row1{
+    width: 30%;
+    padding-right: 0px;
+    background-color: transparent;
+    /* background-color: red; */
+}
+
+/* ..sorry these id names shoud be collumns not inner rows */
+
+#homepageWrapper-row2{
+    width: 40%;
+    background-color: transparent;
+    /* background-color: brown; */
+    /* scrollable.. */
+    height: 575px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#homepageWrapper-row3{
+    width: 30%;
+    background-color: transparent;
+    /* background-color: yellow; */
+}
+
+/* native styles for userinfoWidgetWrapper...... divs , that should only valid for this page*/
+#homepageWrapper-row1 > #UserInfoWidgetWrapper{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+#homepageWrapper-row2 > #postWrapper, #uploadPostWraper{
+    margin-top: 4%;
+}
+
+#homepageWrapper-row3 > #showFriendsWidgetWrapper{
+    margin-top: 5%;
+}
